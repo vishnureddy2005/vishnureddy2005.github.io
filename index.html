@@ -6,22 +6,16 @@
     <title>Vishnu Vardhan Reddy - Portfolio</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Vishnu Vardhan Reddy - B.Tech AI Student, ServiceNow Developer, and Full-Stack Web Developer. Explore my projects in AI, web development, and data science.">
+    <meta name="description" content="Vishnu Vardhan Reddy - B.Tech AI Student, ServiceNow Developer, and Full-Stack Web Developer.">
     <meta name="keywords" content="AI, Machine Learning, ServiceNow, Web Development, Python, Java, Portfolio">
     <meta name="author" content="Vishnu Vardhan Reddy">
     
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Vishnu Vardhan Reddy - AI & Web Developer">
-    <meta property="og:description" content="B.Tech AI Student specializing in ServiceNow development and full-stack web applications">
-    <meta property="og:type" content="website">
-    
+    <!-- FIXED FONTS - Clean URLs -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Orbitron:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     
-    <!-- Link to external CSS file -->
     <link href="styles.css" rel="stylesheet">
 </head>
-
 <body>
     <!-- Loading Screen -->
     <div id="loading-screen">
@@ -71,8 +65,7 @@
                     <i class="fas fa-user-astronaut"></i>
                 </div>
                 
-                <h1 class="centered-underline">VISHNU VARDHAN REDDY</h1>
-
+                <h1 id="hero-title">VISHNU VARDHAN REDDY</h1>
                 <div class="hero-subtitle">B.Tech CSE AI Student</div>
                 <p>Passionate about Artificial Intelligence, Machine Learning, and ServiceNow Development. Building innovative solutions with cutting-edge technology.</p>
                 
@@ -103,7 +96,7 @@
         </div>
     </section>
 
-    <!-- ENHANCED ABOUT SECTION -->
+    <!-- About Section -->
     <section id="about" class="section-alt about-section">
         <div class="container">
             <h2 class="section-title">About Me</h2>
@@ -238,7 +231,7 @@
         </div>
     </section>
 
-    <!-- OPTIMIZED PROJECTS SECTION -->
+    <!-- Projects Section -->
     <section id="projects" class="section-alt">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
@@ -352,7 +345,7 @@
         </div>
     </section>
 
-    <!-- Education & Experience -->
+    <!-- Education Section -->
     <section id="education">
         <div class="container">
             <h2 class="section-title">Education & Experience</h2>
@@ -443,7 +436,7 @@
         </div>
     </section>
 
-    <!-- ENHANCED CONTACT SECTION -->
+    <!-- Contact Section -->
     <section id="contact" class="section-alt contact-section">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
@@ -506,51 +499,56 @@
                 
                 <div class="contact-form-section">
                     <form class="contact-form" id="contactForm">
-                        <h3>Send Me a Message</h3>
-                        
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or inquiry..." required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="submit-btn">
-                            <i class="fas fa-paper-plane"></i>
-                            Send Message
-                        </button>
-                        
-                        <div class="contact-social">
-                            <h4>Follow Me</h4>
-                            <div class="contact-social-links">
-                                <a href="https://www.linkedin.com/in/vishnu-vardhan-reddy-chintham-65115b294" target="_blank">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="https://github.com/vishnureddy2005" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://instagram.com/vishnu_redd_i" target="_blank">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a href="mailto:vishnuvardhanreddyr7@gmail.com">
-                                    <i class="fas fa-envelope"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </form>
+    <h3>Send Me a Message</h3>
+    <div class="contact-info-banner">
+        <i class="fas fa-envelope"></i>
+        <span>Messages will be sent to: <strong>vishnuvardhanreddyr7@gmail.com</strong></span>
+    </div>
+    
+    <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or inquiry..." required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-btn">
+        <i class="fas fa-paper-plane"></i>
+        Send Message
+    </button>
+    
+    <div class="contact-social">
+        <h4>Follow Me</h4>
+        <div class="contact-social-links">
+            <a href="https://www.linkedin.com/in/vishnu-vardhan-reddy-chintham-65115b294" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/vishnureddy2005" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://instagram.com/vishnu_redd_i" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:vishnuvardhanreddyr7@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+</form>
+
                 </div>
             </div>
         </div>
@@ -564,70 +562,309 @@
         </div>
     </footer>
 
-    <!-- JavaScript -->
+    <!-- FIXED JAVASCRIPT - No Syntax Errors -->
     <script>
-        // Enhanced Loading screen
-        window.addEventListener('load', () => {
-            const loadingScreen = document.getElementById('loading-screen');
+    // Force close loading screen after 2 seconds max
+    setTimeout(function() {
+        var loadingScreen = document.getElementById('loading-screen');
+        if (loadingScreen) {
             loadingScreen.style.opacity = '0';
-            setTimeout(() => {
+            setTimeout(function() {
                 loadingScreen.style.display = 'none';
-            }, 800);
-        });
-
-        // Active navigation highlighting
-        function setActiveNav() {
-            const sections = document.querySelectorAll('section[id]');
-            const navLinks = document.querySelectorAll('.nav-link');
-            
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop - 120;
-                if (window.pageYOffset >= sectionTop) {
-                    current = section.getAttribute('id');
-                }
-            });
-            
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === '#' + current) {
-                    link.classList.add('active');
-                }
-            });
+            }, 500);
         }
-        
-        window.addEventListener('scroll', setActiveNav);
+        startTypingAnimation();
+    }, 2000);
 
-        // Mobile menu functionality
-        document.querySelector('.mobile-menu-toggle').addEventListener('click', () => {
-            const mobileMenu = document.querySelector('.mobile-menu');
-            const toggleIcon = document.querySelector('.mobile-menu-toggle i');
-            
-            mobileMenu.classList.toggle('active');
-            
-            if (mobileMenu.classList.contains('active')) {
-                toggleIcon.className = 'fas fa-times';
-            } else {
-                toggleIcon.className = 'fas fa-bars';
+    // Backup - also try on window load
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            var loadingScreen = document.getElementById('loading-screen');
+            if (loadingScreen && loadingScreen.style.display !== 'none') {
+                loadingScreen.style.display = 'none';
+                startTypingAnimation();
             }
-        });
+        }, 500);
+    });
 
-        // Close mobile menu when clicking on a link
-        document.querySelectorAll('.mobile-menu a').forEach(link => {
-            link.addEventListener('click', () => {
-                document.querySelector('.mobile-menu').classList.remove('active');
-                document.querySelector('.mobile-menu-toggle i').className = 'fas fa-bars';
-            });
+    // Typing animation
+    function startTypingAnimation() {
+        var heroTitle = document.getElementById('hero-title');
+        if (heroTitle && !heroTitle.classList.contains('typed')) {
+            var originalText = 'VISHNU VARDHAN REDDY';
+            heroTitle.textContent = '';
+            heroTitle.classList.add('typed');
+            
+            var i = 0;
+            function typeWriter() {
+                if (i < originalText.length) {
+                    heroTitle.textContent += originalText.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, 80);
+                } else {
+                    setTimeout(function() {
+                        heroTitle.classList.add('typing-complete');
+                    }, 500);
+                }
+            }
+            typeWriter();
+        }
+    }
+
+    // Enhanced Email Click Experience
+    function handleEmailClick(e) {
+        e.preventDefault();
+        showEmailOptions();
+    }
+
+    function showEmailOptions() {
+        var popup = document.createElement('div');
+        popup.className = 'email-options-popup';
+        popup.innerHTML = `
+            <div class="email-options-content">
+                <div class="email-options-header">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Contact Vishnu Vardhan Reddy</h3>
+                    <button class="popup-close-btn" onclick="closeEmailOptions()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="email-options-body">
+                    <div class="email-display">
+                        <div class="email-address">
+                            <i class="fas fa-at"></i>
+                            <span>vishnuvardhanreddyr7@gmail.com</span>
+                            <button class="copy-email-btn" onclick="copyEmail()">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <h4>Choose How to Contact:</h4>
+                        
+                        <div class="contact-option" onclick="openEmailClient()">
+                            <div class="option-icon">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                            <div class="option-content">
+                                <h5>Open Email Client</h5>
+                                <p>Opens your default email app (Gmail, Outlook, etc.)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-option" onclick="scrollToContactForm()">
+                            <div class="option-icon">
+                                <i class="fas fa-edit"></i>
+                            </div>
+                            <div class="option-content">
+                                <h5>Use Contact Form</h5>
+                                <p>Fill out the contact form on this page</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-option" onclick="openGmail()">
+                            <div class="option-icon">
+                                <i class="fab fa-google"></i>
+                            </div>
+                            <div class="option-content">
+                                <h5>Open Gmail Web</h5>
+                                <p>Opens Gmail in a new tab</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="quick-message">
+                        <h4>Quick Message Templates:</h4>
+                        <div class="message-templates">
+                            <button class="template-btn" onclick="sendQuickEmail('Job Opportunity')">
+                                💼 Job Opportunity
+                            </button>
+                            <button class="template-btn" onclick="sendQuickEmail('Project Collaboration')">
+                                🤝 Project Collaboration
+                            </button>
+                            <button class="template-btn" onclick="sendQuickEmail('General Inquiry')">
+                                ❓ General Inquiry
+                            </button>
+                            <button class="template-btn" onclick="sendQuickEmail('Feedback')">
+                                📝 Feedback
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        document.body.appendChild(popup);
+        setTimeout(function() {
+            popup.classList.add('show');
+        }, 100);
+    }
+
+    // Email action functions
+    function closeEmailOptions() {
+        var popup = document.querySelector('.email-options-popup');
+        if (popup) {
+            popup.classList.remove('show');
+            setTimeout(function() {
+                popup.remove();
+            }, 300);
+        }
+    }
+
+    function copyEmail() {
+        navigator.clipboard.writeText('vishnuvardhanreddyr7@gmail.com').then(function() {
+            var copyBtn = document.querySelector('.copy-email-btn');
+            var originalText = copyBtn.innerHTML;
+            copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+            copyBtn.style.background = '#27ae60';
+            
+            setTimeout(function() {
+                copyBtn.innerHTML = originalText;
+                copyBtn.style.background = '';
+            }, 2000);
         });
+    }
+
+    function openEmailClient() {
+        window.location.href = 'mailto:vishnuvardhanreddyr7@gmail.com?subject=Hello from your Portfolio&body=Hi Vishnu,%0A%0AI found your portfolio and would like to connect.%0A%0ABest regards,';
+        closeEmailOptions();
+    }
+
+    function openGmail() {
+        var gmailUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=vishnuvardhanreddyr7@gmail.com&su=Hello from your Portfolio&body=Hi Vishnu,%0A%0AI found your portfolio and would like to connect.%0A%0ABest regards,';
+        window.open(gmailUrl, '_blank');
+        closeEmailOptions();
+    }
+
+    function scrollToContactForm() {
+        closeEmailOptions();
+        setTimeout(function() {
+            var contactSection = document.getElementById('contact');
+            if (contactSection) {
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+                var contactForm = document.getElementById('contactForm');
+                if (contactForm) {
+                    contactForm.style.transform = 'scale(1.02)';
+                    contactForm.style.boxShadow = '0 0 30px rgba(102, 126, 234, 0.3)';
+                    setTimeout(function() {
+                        contactForm.style.transform = '';
+                        contactForm.style.boxShadow = '';
+                    }, 2000);
+                }
+            }
+        }, 300);
+    }
+
+    function sendQuickEmail(template) {
+        var subjects = {
+            'Job Opportunity': 'Job Opportunity - Portfolio Inquiry',
+            'Project Collaboration': 'Project Collaboration Proposal',
+            'General Inquiry': 'General Inquiry from Portfolio',
+            'Feedback': 'Feedback on Your Portfolio'
+        };
+        
+        var bodies = {
+            'Job Opportunity': 'Hi Vishnu,%0A%0AI have a job opportunity that might interest you. Let\'s discuss!%0A%0ABest regards,',
+            'Project Collaboration': 'Hi Vishnu,%0A%0AI\'d like to collaborate on a project with you. Are you available?%0A%0ABest regards,',
+            'General Inquiry': 'Hi Vishnu,%0A%0AI have a general question about your work. When would be a good time to chat?%0A%0ABest regards,',
+            'Feedback': 'Hi Vishnu,%0A%0AYour portfolio is impressive! I wanted to share some thoughts.%0A%0ABest regards,'
+        };
+        
+        var subject = subjects[template] || 'Hello from your Portfolio';
+        var body = bodies[template] || 'Hi Vishnu,%0A%0AI found your portfolio and would like to connect.%0A%0ABest regards,';
+        
+        window.location.href = 'mailto:vishnuvardhanreddyr7@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + body;
+        closeEmailOptions();
+    }
+
+    // Enhanced Contact form with email display
+    function showEmailInfo(senderName, senderEmail) {
+        var popup = document.createElement('div');
+        popup.className = 'email-popup';
+        popup.innerHTML = `
+            <div class="email-popup-content">
+                <div class="email-popup-header">
+                    <i class="fas fa-envelope-open"></i>
+                    <h3>Message Sent Successfully!</h3>
+                </div>
+                <div class="email-popup-body">
+                    <p><strong>From:</strong> ${senderName} (${senderEmail})</p>
+                    <p><strong>To:</strong> vishnuvardhanreddyr7@gmail.com</p>
+                    <p>Your message has been sent via your default email client.</p>
+                    <div class="email-note">
+                        <i class="fas fa-info-circle"></i>
+                        <span>I'll respond within 24 hours!</span>
+                    </div>
+                </div>
+                <button class="popup-close" onclick="closeEmailPopup()">
+                    <i class="fas fa-times"></i> Close
+                </button>
+            </div>
+        `;
+        
+        document.body.appendChild(popup);
+        setTimeout(function() {
+            popup.classList.add('show');
+        }, 100);
+        
+        setTimeout(function() {
+            closeEmailPopup();
+        }, 10000);
+    }
+
+    function closeEmailPopup() {
+        var popup = document.querySelector('.email-popup');
+        if (popup) {
+            popup.classList.remove('show');
+            setTimeout(function() {
+                popup.remove();
+            }, 300);
+        }
+    }
+
+    // Mobile menu and other functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        // Update email links to use new function
+        var emailLinks = document.querySelectorAll('a[href^="mailto:vishnuvardhanreddyr7@gmail.com"]');
+        for (var i = 0; i < emailLinks.length; i++) {
+            emailLinks[i].addEventListener('click', handleEmailClick);
+        }
+
+        var mobileToggle = document.querySelector('.mobile-menu-toggle');
+        var mobileMenu = document.querySelector('.mobile-menu');
+
+        if (mobileToggle && mobileMenu) {
+            mobileToggle.addEventListener('click', function() {
+                var toggleIcon = document.querySelector('.mobile-menu-toggle i');
+                mobileMenu.classList.toggle('active');
+                
+                if (mobileMenu.classList.contains('active')) {
+                    toggleIcon.className = 'fas fa-times';
+                } else {
+                    toggleIcon.className = 'fas fa-bars';
+                }
+            });
+
+            var menuLinks = document.querySelectorAll('.mobile-menu a');
+            for (var i = 0; i < menuLinks.length; i++) {
+                menuLinks[i].addEventListener('click', function() {
+                    mobileMenu.classList.remove('active');
+                    document.querySelector('.mobile-menu-toggle i').className = 'fas fa-bars';
+                });
+            }
+        }
 
         // Smooth scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+        var anchors = document.querySelectorAll('a[href^="#"]');
+        for (var i = 0; i < anchors.length; i++) {
+            anchors[i].addEventListener('click', function(e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                var target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    const headerHeight = document.querySelector('header').offsetHeight;
-                    const targetPosition = target.offsetTop - headerHeight;
+                    var headerHeight = 80;
+                    var targetPosition = target.offsetTop - headerHeight;
                     
                     window.scrollTo({
                         top: targetPosition,
@@ -635,159 +872,77 @@
                     });
                 }
             });
-        });
+        }
 
-        // Header scroll effect
-        let lastScrollY = window.scrollY;
-        window.addEventListener('scroll', () => {
-            const header = document.querySelector('header');
-            const currentScrollY = window.scrollY;
-            
-            if (currentScrollY > 80) {
-                header.style.background = 'rgba(255, 255, 255, 0.98)';
-                header.style.transform = currentScrollY > lastScrollY ? 'translateY(-100%)' : 'translateY(0)';
-            } else {
-                header.style.background = 'rgba(255, 255, 255, 0.95)';
-                header.style.transform = 'translateY(0)';
-            }
-            
-            lastScrollY = currentScrollY;
-        });
+        // Enhanced Contact form
+        var contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                var submitBtn = this.querySelector('.submit-btn');
+                var originalText = submitBtn.innerHTML;
+                
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+                submitBtn.style.background = '#95a5a6';
+                
+                var name = this.querySelector('#name').value;
+                var email = this.querySelector('#email').value;
+                var subject = this.querySelector('#subject').value;
+                var message = this.querySelector('#message').value;
+                
+                if (name && email && subject && message) {
+                    setTimeout(function() {
+                        var mailtoSubject = encodeURIComponent(subject + ' - Portfolio Contact from ' + name);
+                        var mailtoBody = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nSubject: ' + subject + '\n\nMessage:\n' + message);
+                        var mailtoLink = 'mailto:vishnuvardhanreddyr7@gmail.com?subject=' + mailtoSubject + '&body=' + mailtoBody;
+                        
+                        window.location.href = mailtoLink;
+                        
+                        submitBtn.innerHTML = '<i class="fas fa-check"></i> Sent to vishnuvardhanreddyr7@gmail.com';
+                        submitBtn.style.background = '#27ae60';
+                        
+                        showEmailInfo(name, email);
+                        contactForm.reset();
+                        
+                        setTimeout(function() {
+                            submitBtn.innerHTML = originalText;
+                            submitBtn.style.background = '';
+                        }, 5000);
+                    }, 1200);
+                } else {
+                    submitBtn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Please fill all fields';
+                    submitBtn.style.background = '#e74c3c';
+                    
+                    setTimeout(function() {
+                        submitBtn.innerHTML = originalText;
+                        submitBtn.style.background = '';
+                    }, 2000);
+                }
+            });
+        }
 
-        // Intersection Observer for animations
-        const observerOptions = {
+        // Section animations
+        var observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -40px 0px'
         };
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-in');
-                    observer.unobserve(entry.target);
+        var observer = new IntersectionObserver(function(entries) {
+            for (var i = 0; i < entries.length; i++) {
+                if (entries[i].isIntersecting) {
+                    entries[i].target.classList.add('animate-in');
+                    observer.unobserve(entries[i].target);
                 }
-            });
+            }
         }, observerOptions);
 
-        // Observe all sections
-        document.querySelectorAll('section').forEach(section => {
-            observer.observe(section);
-        });
+        var sections = document.querySelectorAll('section');
+        for (var i = 0; i < sections.length; i++) {
+            observer.observe(sections[i]);
+        }
+    });
+</script>
 
-        // Typing effect for hero
-        const heroTitle = document.querySelector('.hero h1');
-        const text = heroTitle.textContent;
-        heroTitle.textContent = '';
-        
-        let i = 0;
-        const typeWriter = () => {
-            if (i < text.length) {
-                heroTitle.textContent += text.charAt(i);
-                i++;
-                setTimeout(typeWriter, 70);
-            }
-        };
-        
-        setTimeout(typeWriter, 2000);
-
-        // Enhanced Contact form functionality
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const submitBtn = this.querySelector('.submit-btn');
-            const originalText = submitBtn.innerHTML;
-            
-            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-            submitBtn.style.background = '#95a5a6';
-            
-            const name = this.querySelector('#name').value;
-            const email = this.querySelector('#email').value;
-            const subject = this.querySelector('#subject').value;
-            const message = this.querySelector('#message').value;
-            
-            if (name && email && subject && message) {
-                setTimeout(() => {
-                    const mailtoSubject = encodeURIComponent(`${subject} - Portfolio Contact from ${name}`);
-                    const mailtoBody = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`);
-                    const mailtoLink = `mailto:vishnuvardhanreddyr7@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
-                    
-                    window.location.href = mailtoLink;
-                    this.reset();
-                    
-                    submitBtn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
-                    submitBtn.style.background = '#27ae60';
-                    
-                    setTimeout(() => {
-                        submitBtn.innerHTML = originalText;
-                        submitBtn.style.background = '';
-                    }, 3000);
-                }, 1200);
-            } else {
-                submitBtn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Please fill all fields';
-                submitBtn.style.background = '#e74c3c';
-                
-                setTimeout(() => {
-                    submitBtn.innerHTML = originalText;
-                    submitBtn.style.background = '';
-                }, 2000);
-            }
-        });
-
-        // Add smooth reveal animation for timeline items
-        const timelineObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.transform = 'translateX(0) scale(1)';
-                    entry.target.style.opacity = '1';
-                }
-            });
-        }, { threshold: 0.2 });
-
-        document.querySelectorAll('.timeline-item').forEach((item, index) => {
-            const isEven = index % 2 === 0;
-            item.style.transform = isEven ? 'translateX(-40px) scale(0.95)' : 'translateX(40px) scale(0.95)';
-            item.style.opacity = '0';
-            item.style.transition = 'all 0.7s ease';
-            timelineObserver.observe(item);
-        });
-
-        // Add staggered animation for project cards
-        const projectObserver = new IntersectionObserver((entries) => {
-            entries.forEach((entry, index) => {
-                if (entry.isIntersecting) {
-                    setTimeout(() => {
-                        entry.target.style.transform = 'translateY(0) scale(1)';
-                        entry.target.style.opacity = '1';
-                    }, index * 150);
-                }
-            });
-        }, { threshold: 0.15 });
-
-        document.querySelectorAll('.project-card').forEach(card => {
-            card.style.transform = 'translateY(40px) scale(0.95)';
-            card.style.opacity = '0';
-            card.style.transition = 'all 0.7s ease';
-            projectObserver.observe(card);
-        });
-
-        // Add staggered animation for about cards
-        const aboutObserver = new IntersectionObserver((entries) => {
-            entries.forEach((entry, index) => {
-                if (entry.isIntersecting) {
-                    setTimeout(() => {
-                        entry.target.style.transform = 'translateY(0) scale(1)';
-                        entry.target.style.opacity = '1';
-                    }, index * 100);
-                }
-            });
-        }, { threshold: 0.2 });
-
-        document.querySelectorAll('.about-card').forEach(card => {
-            card.style.transform = 'translateY(30px) scale(0.95)';
-            card.style.opacity = '0';
-            card.style.transition = 'all 0.6s ease';
-            aboutObserver.observe(card);
-        });
-    </script>
 </body>
 </html>
