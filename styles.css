@@ -297,6 +297,26 @@ nav {
     background-size: 400% 400%;
     animation: heroGradient 15s ease infinite;
 }
+/* Simple fix: Lock hero content height */
+.hero-content {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-avatar {
+    flex-shrink: 0; /* Prevent avatar from moving */
+    margin-bottom: 2rem; /* Fixed spacing */
+}
+
+.hero h1 {
+    min-height: 5rem; /* Reserve space for name */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @keyframes heroGradient {
     0% { background-position: 0% 50%; }
